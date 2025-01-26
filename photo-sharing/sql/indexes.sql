@@ -15,4 +15,7 @@ CREATE INDEX idx_hashtags_hashtag ON hashtags (hashtag);
 --  index for photo_hashtags table
 CREATE INDEX idx_photo_hashtags_photo_id ON photo_hashtags(photo_id);
 
+-- index for photo_hashtags table
+CREATE INDEX idx_photo_hashtags_hashtag_id ON photo_hashtags(hashtag_id);
+
 
