@@ -32,5 +32,3 @@ CREATE TABLE photo_hashtags (
     PRIMARY KEY (photo_id, hashtag_id)
 );
 
-
---  foreign key constraints

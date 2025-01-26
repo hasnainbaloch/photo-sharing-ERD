@@ -1,5 +1,3 @@
---  indexes for faster queries searching for user_id, location_id, hashtag_id, photo_id
-
 -- index for users table
 CREATE INDEX idx_users_username ON users (username);
 
